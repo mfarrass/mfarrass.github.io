@@ -860,16 +860,18 @@ footer h3 {
     font-size: 16px;
   }
 
+  /* .about .about-container {
+    width: 450px;
+    height: 337px;
+    margin-bottom: 10px;
+  } */
+
   .about .about-container img {
     display: none;
   }
   .about .about-container .about-text {
     text-align: center;
-    margin: 10px;
-  }
-
-  .about .about-container .about-text p {
-    font-size: 16px;
+    margin: 20px 5px 5px 5px;
   }
 
   .aboutme .aboutme-text p {
@@ -878,15 +880,11 @@ footer h3 {
 
   .aboutme .image-logo img {
     width: 80px;
-    height: 80px;
-  }
-  .aboutme .image-logo img {
-    width: 68px;
-    height: 68px;
+    height: 90px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .btn {
     width: 121px;
     height: 46px;
@@ -896,7 +894,7 @@ footer h3 {
     position: relative;
     /* top: 50px; */
     font-size: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .home .container .buttons a i {
     font-size: 15px;
@@ -910,20 +908,24 @@ footer h3 {
     top: -310px;
   }
 
-  .about .about-container .about-text {
-    text-align: center;
-    margin: 10px;
+  .about .about-container {
+    width: 370px;
+    height: 338px;
+    margin-bottom: 10px;
+    padding: 5px auto;
   }
 
-  .about .about-container .about-text p {
-    font-size: 13px;
+  .about .about-container .about-text {
+    text-align: center;
+    margin: 1px auto;
   }
 
   .aboutme .aboutme-text p {
     font-size: 17px;
   }
   .aboutme .image-logo img {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 62px;
   }
 }
+
