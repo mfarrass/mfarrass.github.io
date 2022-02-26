@@ -479,6 +479,7 @@ header.hide {
   font-size: 16px;
 }
 
+
 .aboutme .image-logo {
   display: flex;
   justify-content: center;
@@ -507,12 +508,9 @@ header.hide {
   margin: 50px;
 }
 
-.contact {
-  padding-top: -100px;
-  padding-bottom: 100px;
-}
 
 .contact .container {
+  margin-top: 1rem;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   display: -webkit-box;
