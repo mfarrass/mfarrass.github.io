@@ -503,6 +503,13 @@ html, body {
   line-height: 1.2;
 }
 
+.yb-box-circle:hover {
+  transform: scale(0.8);
+  opacity: 0.7;
+  transition: transform .4s;
+  cursor: pointer;
+}
+
 .yb-box-circle strong {
   position: absolute;
   top: 50px;
