@@ -258,3 +258,12 @@
     });
   }
 })(jQuery);
+
+// years footer
+$(document).ready(function() {
+  // Get the current year
+  const currentYear = new Date().getFullYear();
+
+  // Set the text content of the element with id 'year' to the current year
+  $('#year').text(currentYear);
+});
