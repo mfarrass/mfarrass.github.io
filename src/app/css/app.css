@@ -322,38 +322,33 @@ html, body {
   width: 35%;
   height: 100%;
   max-height: 100%;
-  object-fit: contain; /* Mencegah gepeng */
+  object-fit: contain; 
   transition: opacity 0.5s ease-in-out;
 }
 
 
-/* Hilangkan gambar saat ukuran antara 1000px hingga 959px */
 @media (max-width: 1000px) and (min-width: 959px) {
   .yb-my-profile-img {
-    opacity: 0; /* Menghilangkan dengan efek smooth */
-    pointer-events: none; /* Hindari interaksi saat tersembunyi */
+    opacity: 0;
+    pointer-events: none;
   }
 }
 
-/* Tampilan mobile (kurang dari 959px) */
 @media (max-width: 959px) {
   .yb-my-profile-img {
     position: relative;
-    width: 80%; /* Perkecil sedikit di mobile */
-    max-width: 300px; /* Batasi ukuran maksimum */
-    margin: 20px auto; /* Pusatkan horizontal */
-    display: block; /* Agar margin auto berfungsi */
+    width: 80%; 
+    max-width: 300px; 
+    margin: 20px auto;
+    display: block; 
   }
 }
 
-
-/* Tampilkan lagi di ukuran lebih dari 1000px */
 @media (min-width: 1001px) {
   .yb-my-profile-img {
     opacity: 1;
   }
 }
-
 
 .yb-my-profile-desc {
   position: relative;
